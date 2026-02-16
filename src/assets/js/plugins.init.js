@@ -1,12 +1,3 @@
-/* Template Name: Appever - Tailwind CSS App Landing Template
-   Author: Shreethemes
-   Email: support@shreethemes.in
-   Website: https://shreethemes.in
-   Version: 1.1.0
-   Created: March 2022
-   File Description: Common JS file of the template(plugins.init.js)
-*/
-
 /***********************************/
 /*         INDEX                   */
 /*==================================
@@ -233,7 +224,7 @@ try {
 try {
     const Default = {
         alwaysOpen: false,
-        activeClasses: 'bg-slate-50/50 dark:bg-slate-800/20 text-red-500',
+        activeClasses: 'bg-slate-50/50 dark:bg-slate-800/20 text-purple-500',
         inactiveClasses: 'text-slate-900 dark:text-white',
         onOpen: () => { },
         onClose: () => { },

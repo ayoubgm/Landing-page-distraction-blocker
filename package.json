@@ -1,8 +1,8 @@
 {
 	"private": true,
-	"name": "appever",
+	"name": "unlock-lingo",
 	"version": "1.1.0",
-	"description": "Tailwind CSS App Landing Template",
+	"description": "UnlockLingo App",
 	"main": "gulpfile.js",
 	"author": "ShreeThemes",
 	"browserslist": [
