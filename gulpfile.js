@@ -88,7 +88,10 @@ const paths = {
 gulp.task('browsersync', function (callback) {
     browsersync.init({
         server: {
-            baseDir: [paths.dist.base.dir, paths.src.base.dir, paths.base.base.dir]
+            baseDir: [paths.dist.base.dir, paths.src.base.dir, paths.base.base.dir],
+            serveStaticOptions: {
+                extensions: ['html']
+            }
         },
     });
     callback();
