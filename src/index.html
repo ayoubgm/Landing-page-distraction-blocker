@@ -11,7 +11,8 @@
         @@include("partials/navbar/nav-center.html")
 
         <!-- Start -->
-        <section class="relative overflow-hidden md:py-36 py-24 bg-[#0f172b] before:content-[''] before:absolute md:before:bottom-[30rem] sm:before:bottom-[35rem] xl:before:right-[13rem] lg:before:-right-[13rem] md:before:-right-[16rem] sm:before:-right-[15rem] before:w-[55rem] before:h-[25rem] before:rotate-[100deg] before:bg-gradient-to-r before:to-transparent before:via-purple-500/50 before:from-purple-500 before:z-1" id="home">
+        <section class="relative pt-40 md:pb-36 pb-36 items-center overflow-hidden bg-black" id="home">
+            <div class="absolute inset-0 bg-[url('../../assets/images/map.png')] bg-center bg-no-repeat bg-cover"></div>
             <div class="container relative z-1">
                 <div class="grid md:grid-cols-2 grid-cols-1 items-center mt-6 gap-[30px] relative">
                     <div class="md:me-6 wow animate__animated animate__fadeInUp">
@@ -51,14 +52,14 @@
                             </div>
                         </div>
 
-                        <div class="absolute top-24 md:end-24 -end-2 text-center">
+                        <!-- <div class="absolute top-24 md:end-24 -end-2 text-center">
                             <a href="#!" data-type="youtube" data-id="ZzUsKizhb8o"
                                 class="lightbox size-20 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center text-white bg-purple-500">
                                 <i class="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                             </a>
-                        </div>
+                        </div> -->
 
-                        <div class="absolute bottom-28 md:start-5 -start-5 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-56 m-3 mover">
+                        <!-- <div class="absolute bottom-28 md:start-5 -start-5 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-56 m-3 mover">
                             <div class="flex items-center">
                                 <div class="flex items-center justify-center size-[65px] text-purple-500 text-center rounded-full me-3">
                                     <i data-feather="download" class="size-6"></i>
@@ -68,7 +69,7 @@
                                     <p class="text-xl font-bold"><span class="counter-value" data-target="45485">39548</span></p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -79,60 +80,60 @@
         <section class="relative md:py-24 py-16" id="features">
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-6 text-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                    <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">Features</h6>
+                    <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">Features</h6>
                     <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Learn to unlock. Focus that lasts.</h4>
 
                     <p class="text-slate-400 max-w-xl mx-auto">Turn distracting opens into quick vocabulary wins fully customizable and works with any language.</p>
                 </div><!--end grid-->
 
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-6 gap-6 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                    <div class="p-6 hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800 transition duration-500 rounded-3xl flex flex-col">
-                        <div class="size-16 bg-purple-500/5 text-purple-500 rounded-2xl flex align-middle justify-center items-center shadow-sm">
+                    <div class="p-6 shadow-xl shadow-slate-800 hover:shadow-slate-700 transition duration-500 rounded-3xl flex flex-col">
+                        <div class="size-16 bg-gray-500/30 text-gray-400 rounded-2xl flex align-middle justify-center items-center shadow-sm">
                             <i data-feather="book-open" class="size-5"></i>
                         </div>
 
                         <div class="content mt-7 flex-1">
-                            <a href="" class="text-lg hover:text-purple-500 dark:text-white dark:hover:text-purple-500 transition-all duration-500 ease-in-out font-semibold">Flashcards (Any Language)</a>
+                            <a href="" class="text-lg text-white transition-all duration-500 ease-in-out font-semibold">Flashcards (Any Language)</a>
                             <p class="text-slate-400 mt-3">Add word pairs for any source → target language. Build decks from your notes, courses, or daily life.</p>
                             
                             <div class="mt-3">
-                                <a href="" class="hover:text-purple-500 dark:hover:text-purple-500 after:bg-purple-500 dark:text-white transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
+                                <a href="" class="hover:bg-gray-500/30 py-2 px-4 rounded-md after:bg-gray-200 transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div><!--end content-->
 
-                    <div class="p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl flex flex-col">
-                        <div class="size-16 bg-purple-500/5 text-purple-500 rounded-2xl flex align-middle justify-center items-center shadow-sm">
+                    <div class="p-6 shadow-xl shadow-slate-800 hover:shadow-slate-700 transition duration-500 rounded-3xl flex flex-col">
+                        <div class="size-16 bg-gray-500/30 text-gray-400 rounded-2xl flex align-middle justify-center items-center shadow-sm">
                             <i data-feather="upload" class="size-5"></i>
                         </div>
 
                         <div class="content mt-7 flex-1">
-                            <a href="" class="text-lg hover:text-purple-500 dark:text-white dark:hover:text-purple-500 transition-all duration-500 ease-in-out font-semibold">Import Decks</a>
+                            <a href="" class="text-lg hover:text-purple-500 dark:text-white transition-all duration-500 ease-in-out font-semibold">Import Decks</a>
                             <p class="text-slate-400 mt-3">Upload CSV/TXT vocabulary lists in seconds. Reuse decks from other tools and start practicing right away.</p>
                             
-                            <div class="">
-                                <a href="" class="hover:text-purple-500 dark:hover:text-purple-500 after:bg-purple-500 dark:text-white transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
+                            <div class="mt-3">
+                                <a href="" class="hover:bg-gray-500/30 py-2 px-4 rounded-md after:bg-gray-200 transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div><!--end content-->
                     
-                    <div class="p-6 hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800 transition duration-500 rounded-3xl flex flex-col">
-                        <div class="size-16 bg-purple-500/5 text-purple-500 rounded-2xl flex align-middle justify-center items-center shadow-sm">
+                    <div class="p-6 shadow-xl shadow-slate-800 hover:shadow-slate-700 transition duration-500 rounded-3xl flex flex-col">
+                        <div class="size-16 bg-gray-500/30 text-gray-400 rounded-2xl flex align-middle justify-center items-center shadow-sm">
                             <i data-feather="lock" class="size-5"></i>
                         </div>
 
                         <div class="content mt-7 flex-1">
-                            <a href="" class="text-lg hover:text-purple-500 dark:text-white dark:hover:text-purple-500 transition-all duration-500 ease-in-out font-semibold">App Blocking</a>
+                            <a href="" class="text-lg hover:text-purple-500 dark:text-white transition-all duration-500 ease-in-out font-semibold">App Blocking</a>
                             <p class="text-slate-400 mt-3">Select which apps get blocked behind the challenge—social, games, or anything that steals your time.</p>
                             
                             <div class="mt-3">
-                                <a href="" class="hover:text-purple-500 dark:hover:text-purple-500 after:bg-purple-500 dark:text-white transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
+                                <a href="" class="hover:bg-gray-500/30 py-2 px-4 rounded-md after:bg-gray-200 transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div><!--end content-->
 
-                    <div class="p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl flex flex-col">
-                        <div class="size-16 bg-purple-500/5 text-purple-500 rounded-2xl flex align-middle justify-center items-center shadow-sm">
+                    <div class="p-6 shadow-xl shadow-slate-800 hover:shadow-slate-700 transition duration-500 rounded-3xl flex flex-col">
+                        <div class="size-16 bg-gray-500/30 text-gray-400 rounded-2xl flex align-middle justify-center items-center shadow-sm">
                             <i data-feather="sliders" class="size-5"></i>
                         </div>
 
@@ -141,7 +142,7 @@
                             <p class="text-slate-400 mt-3">Set words per unlock and re-prompt minutes. Make it easy to start—or strict to stay focused.</p>
                             
                             <div class="mt-3">
-                                <a href="" class="hover:text-purple-500 dark:hover:text-purple-500 after:bg-purple-500 dark:text-white transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
+                                <a href="" class="hover:bg-gray-500/30 py-2 px-4 rounded-md after:bg-gray-200 transition duration-500">Read More <i class="mdi mdi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div><!--end content-->
@@ -151,7 +152,7 @@
             <div class="container relative md:mt-24 mt-16">
                 <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div class="lg:col-span-5 md:col-span-6">
-                        <div class="pt-6 px-6 rounded-2xl bg-purple-500/5 dark:bg-purple-500/10 shadow-sm shadow-purple-500/20">
+                        <div class="pt-6 px-6 rounded-2xl bg-gray-500/30 shadow-sm shadow-purple-500/20">
                             <img src="assets/images/phone/half-1.png" class="wow animate__animated animate__zoomIn" data-wow-delay=".7s" alt="">
                         </div>
                     </div><!--end grid-->
@@ -159,15 +160,15 @@
                     <div class="lg:col-span-7 md:col-span-6">
                         <div class="lg:ms-10">
                             <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">Flashcards</h6>
+                                <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">Flashcards</h6>
                                 <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Create your <br> Own flashcards</h4>
                                 <p class="text-slate-400 max-w-xl">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                             </div>
 
                             <ul class="list-none text-slate-400 mt-6 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Create your own skin to match your brand</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Create your own skin to match your brand</li>
                             </ul>
                         </div>
                     </div>
@@ -177,7 +178,7 @@
             <div class="container relative md:mt-24 mt-16">
                 <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div class="lg:col-span-5 md:col-span-6 md:order-2 order-1">
-                        <div class="pt-6 px-6 rounded-2xl bg-purple-500/5 dark:bg-purple-500/10 shadow-sm shadow-purple-500/20">
+                        <div class="pt-6 px-6 rounded-2xl bg-gray-500/30 shadow-sm shadow-purple-500/20">
                             <img src="assets/images/phone/half-2.png" class="wow animate__animated animate__zoomIn" data-wow-delay=".7s" alt="">
                         </div>
                     </div><!--end grid-->
@@ -185,15 +186,15 @@
                     <div class="lg:col-span-7 md:col-span-6 md:order-1 order-2">
                         <div class="lg:me-10">
                             <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">Import Decks</h6>
+                                <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">Import Decks</h6>
                                 <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Import decks<br> Instantly</h4>
                                 <p class="text-slate-400 max-w-xl">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                             </div>
 
                             <ul class="list-none text-slate-400 mt-6 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Create your own skin to match your brand</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Create your own skin to match your brand</li>
                             </ul>
                         </div>
                     </div>
@@ -203,7 +204,7 @@
             <div class="container relative md:mt-24 mt-16">
                 <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div class="lg:col-span-5 md:col-span-6">
-                        <div class="pt-6 px-6 rounded-2xl bg-purple-500/5 dark:bg-purple-500/10 shadow-sm shadow-purple-500/20">
+                        <div class="pt-6 px-6 rounded-2xl bg-gray-500/30 shadow-sm shadow-purple-500/20">
                             <img src="assets/images/phone/half-3.png" class="wow animate__animated animate__zoomIn" data-wow-delay=".7s" alt="">
                         </div>
                     </div><!--end grid-->
@@ -211,15 +212,15 @@
                     <div class="lg:col-span-7 md:col-span-6">
                         <div class="lg:ms-10">
                             <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">App Blocking</h6>
+                                <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">App Blocking</h6>
                                 <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Choose apps to <br> Lock</h4>
                                 <p class="text-slate-400 max-w-xl">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                             </div>
 
                             <ul class="list-none text-slate-400 mt-6 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Create your own skin to match your brand</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Create your own skin to match your brand</li>
                             </ul>
                         </div>
                     </div>
@@ -229,7 +230,7 @@
             <div class="container relative md:mt-24 mt-16">
                 <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div class="lg:col-span-5 md:col-span-6 md:order-2 order-1">
-                        <div class="pt-6 px-6 rounded-2xl bg-purple-500/5 dark:bg-purple-500/10 shadow-sm shadow-purple-500/20">
+                        <div class="pt-6 px-6 rounded-2xl bg-gray-500/30 shadow-sm shadow-purple-500/20">
                             <img src="assets/images/phone/half-4.png" class="wow animate__animated animate__zoomIn" data-wow-delay=".7s" alt="">
                         </div>
                     </div><!--end grid-->
@@ -237,15 +238,15 @@
                     <div class="lg:col-span-7 md:col-span-6 md:order-1 order-2">
                         <div class="lg:me-10">
                             <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">Unlock rules</h6>
+                                <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">Unlock rules</h6>
                                 <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Control<br> The Challenge</h4>
                                 <p class="text-slate-400 max-w-xl">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                             </div>
 
                             <ul class="list-none text-slate-400 mt-6 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check text-purple-500 text-xl me-2"></i> Create your own skin to match your brand</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Digital Marketing Solutions for Tomorrow</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Our Talented & Experienced Marketing Agency</li>
+                                <li class="mb-1 flex"><i class="mdi mdi-check text-gray-500 text-xl me-2"></i> Create your own skin to match your brand</li>
                             </ul>
                         </div>
                     </div>
@@ -256,50 +257,50 @@
         <!-- End -->
 
         <!-- Start -->
-        <section class="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="about">
+        <section class="relative md:py-24 py-16 bg-black" id="about">
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-6 text-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                    <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">About</h6>
+                    <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">About</h6>
                     <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Turn distraction into daily progress</h4>
 
                     <p class="text-slate-400 max-w-xl mx-auto">Instead of blocking you with guilt, the app gives you a simple trade: want to open a distracting app? Do a quick vocabulary challenge first. In seconds, you unlock access—and build real language skills over time.</p>
                 </div><!--end grid-->
 
                 <div class="grid lg:grid-cols-3 grid-cols-1 gap-6 mt-6">
-                    <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm dark:shadow-gray-800 bg-slate-50/50 dark:bg-slate-800/20 hover:bg-purple-500 dark:hover:bg-purple-500 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                        <span class="text-purple-500 group-hover:text-white text-5xl font-semibold duration-500">
+                    <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm shadow-gray-800 bg-gray-500/30 hover:bg-gray-500 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <span class="text-gray-500 group-hover:text-white text-5xl font-semibold duration-500">
                             <i data-feather="globe" class="size-8 mt-2"></i>
                         </span>
                         <div class="flex-1 ms-3">
                             <h5 class="group-hover:text-white text-lg font-semibold duration-500">Any language</h5>
                             <p class="text-slate-400 group-hover:text-white/50 duration-500 mt-2">create your own decks or import CSV/TXT</p>
                         </div>
-                        <div class="absolute start-1 top-5 text-slate-900/[0.02] dark:text-white/[0.03] text-8xl group-hover:text-white/[0.1] duration-500">
+                        <div class="absolute start-1 top-5 text-white/3 text-8xl group-hover:text-white/10 duration-500">
                             <i data-feather="globe" class="size-24"></i>
                         </div>
                     </div>
 
-                    <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm dark:shadow-gray-800 bg-slate-50/50 dark:bg-slate-800/20 hover:bg-purple-500 dark:hover:bg-purple-500 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-                        <span class="text-purple-500 group-hover:text-white text-5xl font-semibold duration-500">
+                    <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm shadow-gray-800 bg-gray-500/30 hover:bg-gray-500 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                        <span class="text-gray-500 group-hover:text-white text-5xl font-semibold duration-500">
                             <i data-feather="sliders" class="size-8 mt-2"></i>
                         </span>
                         <div class="flex-1 ms-3">
                             <h5 class="group-hover:text-white text-lg font-semibold duration-500">Your rules</h5>
                             <p class="text-slate-400 group-hover:text-white/50 duration-500 mt-2">Choose apps to lock, words per unlock, and re-prompt time</p>
                         </div>
-                        <div class="absolute start-1 top-5 text-slate-900/[0.02] dark:text-white/[0.03] text-8xl group-hover:text-white/[0.1] duration-500">
+                        <div class="absolute start-1 top-5 text-white/3 text-8xl group-hover:text-white/10 duration-500">
                             <i data-feather="sliders" class="size-24"></i>
                         </div>
                     </div>
-                    <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm dark:shadow-gray-800 bg-slate-50/50 dark:bg-slate-800/20 hover:bg-purple-500 dark:hover:bg-purple-500 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-                        <span class="text-purple-500 group-hover:text-white text-5xl font-semibold duration-500">
+                    <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm shadow-gray-800 bg-gray-500/30 hover:bg-gray-500 duration-500 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
+                        <span class="text-gray-500 group-hover:text-white text-5xl font-semibold duration-500">
                             <i data-feather="zap" class="size-8 mt-2"></i>
                         </span>
                         <div class="flex-1 ms-3">
                             <h5 class="group-hover:text-white text-lg font-semibold duration-500">Fast by design</h5>
                             <p class="text-slate-400 group-hover:text-white/50 duration-500 mt-2">Micro-sessions that fit real life</p>
                         </div>
-                        <div class="absolute start-1 top-5 text-slate-900/[0.02] dark:text-white/[0.03] text-8xl group-hover:text-white/[0.1] duration-500">
+                        <div class="absolute start-1 top-5 text-white/3 text-8xl group-hover:text-white/10 duration-500">
                             <i data-feather="zap" class="size-24"></i>
                         </div>
                     </div>
@@ -311,38 +312,12 @@
         <!-- Start -->
         <section class="relative overflow-hidden md:py-24 py-16" id="faqs">
             <div class="container relative">
-                <div class="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-                    <div class="relative order-1 md:order-2">
-                        <div class="relative">
-                            <img src="assets/images/phone/3.png" class="mx-auto md:max-w-xs lg:max-w-sm wow animate__animated animate__zoomIn" data-wow-delay=".7s" alt="">
-
-                            <div class="absolute top-24 md:end-14 -end-2 text-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                <a href="#!" data-type="youtube" data-id="ZzUsKizhb8o"
-                                    class="lightbox size-20 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center text-white bg-purple-500">
-                                    <i class="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="overflow-hidden absolute md:size-[500px] size-[400px] bg-gradient-to-tr to-purple-500/20 via-purple-500/70 from-purple-500 bottom-1/2 translate-y-1/2 md:end-0 end-1/2 md:translate-x-0 translate-x-1/2 -z-1 shadow-md shadow-purple-500/10 rounded-full"></div>
-
-                        <div class="absolute bottom-28 md:start-0 -start-5 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-52 m-3 wow animate__animated animate__bounceIn" data-wow-delay=".7s">
-                            <div class="flex items-center">
-                                <div class="flex items-center justify-center size-[65px] bg-purple-500/5 text-purple-500 text-center rounded-full me-3">
-                                    <i data-feather="download" class="size-6"></i>
-                                </div>
-                                <div class="flex-1">
-                                    <h6 class="text-slate-400">Total Users</h6>
-                                    <p class="text-xl font-bold"><span class="counter-value" data-target="45485">39548</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="lg:me-8 order-2 md:order-1">
+                <div class="lg:me-8 order-2 md:order-1">
+                    <div class="">
                         <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                            <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">FAQs</h6>
+                            <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">FAQs</h6>
                             <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Have Questions? Look Here</h4>
-                            <p class="text-slate-400 max-w-xl mx-auto">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
+                            <p class="text-slate-400">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                         </div>
                         
                         <div id="accordion-collapseone" data-accordion="collapse" class="mt-8">
@@ -412,7 +387,7 @@
                         </div>
 
                         <div class="mt-6 wow animate__animated animate__fadeInUp" data-wow-delay="1.1s">
-                            <a href="" class="hover:text-purple-500 dark:hover:text-purple-500 after:bg-purple-500 dark:text-white transition duration-500 font-medium">Find Out More <i class="mdi mdi-arrow-right"></i></a>
+                            <a href="" class="hover:bg-gray-600 py-2 px-4 rounded-md after:bg-gray-200 transition duration-500 font-medium">Find Out More <i class="mdi mdi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div><!--end grid-->
@@ -421,45 +396,33 @@
         <!-- End Section-->
 
         <!-- Start -->
-        <section class="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="download">
+        <section class="relative py-16 bg-black" id="download">
             <div class="container relative">
-                <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
-                    <div class="lg:col-span-5 md:col-span-6">
-                        <div class="pt-6 px-6 rounded-2xl bg-purple-500/5 dark:bg-purple-500/10 shadow-sm shadow-purple-500/20">
-                            <img src="assets/images/phone/half-3.png" class="wow animate__animated animate__zoomIn" data-wow-delay=".7s" alt="">
+                <div class="lg:col-span-7 md:col-span-6">
+                    <div class="lg:ms-10">
+                        <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
+                            <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">Mobile Apps</h6>
+                            <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Available for your <br> Smartphones</h4>
+                            <p class="text-slate-400 mb-0">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                         </div>
-                    </div><!--end grid-->
+                        <div class="my-6">
+                            <a href=""><img src="assets/images/app.png" class="h-12 inline-block m-1 wow animate__animated animate__fadeInUp" data-wow-delay=".3s" alt=""></a>
+                            <a href=""><img src="assets/images/play.png" class="h-12 inline-block m-1 wow animate__animated animate__fadeInUp" data-wow-delay=".5s" alt=""></a>
+                        </div>
 
-                    <div class="lg:col-span-7 md:col-span-6">
-                        <div class="lg:ms-10">
-                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">Mobile Apps</h6>
-                                <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Available for your <br> Smartphones</h4>
-                                <p class="text-slate-400 max-w-xl mb-0">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
-                            </div>
-                            <div class="my-6">
-                                <a href=""><img src="assets/images/app.png" class="h-12 inline-block m-1 wow animate__animated animate__fadeInUp" data-wow-delay=".3s" alt=""></a>
-                                <a href=""><img src="assets/images/play.png" class="h-12 inline-block m-1 wow animate__animated animate__fadeInUp" data-wow-delay=".5s" alt=""></a>
-                            </div>
-
-                            <div class="inline-block wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-                                <div class="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
-                                    <i data-feather="smartphone" class="me-2 text-purple-500 size-10"></i>
-                                    <div class="content">
-                                        <h6 class="text-base font-medium">Install app now on your cellphones</h6>
-                                        <a href="" class="hover:text-purple-500 dark:hover:text-purple-500 after:bg-purple-500 dark:text-white transition duration-500 font-medium">Install Now <i class="mdi mdi-arrow-right"></i></a> 
-                                    </div>
+                        <div class="inline-block wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
+                            <div class="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
+                                <i data-feather="smartphone" class="me-2 text-gray-500 size-10"></i>
+                                <div class="content">
+                                    <h6 class="text-base font-medium">Install app now on your cellphones</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div><!--end gird-->
+                </div>
             </div><!--end container-->
         </section><!--end section-->
-        <!-- End -->
-
-        <!-- Start -->
-        <section class="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="contact">
+        <section class="relative md:py-24 py-16 bg-black" id="contact">
             <div class="container relative">
                 <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
                     <div class="lg:col-span-7 md:col-span-6">
@@ -469,7 +432,7 @@
                     <div class="lg:col-span-5 md:col-span-6">
                         <div class="lg:ms-5 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                             <div class="bg-white dark:bg-slate-900 rounded-md shadow-sm dark:shadow-gray-800 p-6">
-                                <h6 class="text-purple-500 uppercase text-sm font-bold tracking-wider mb-3">Contact Us</h6>
+                                <h6 class="text-gray-500 uppercase text-sm font-bold tracking-wider mb-3">Contact Us</h6>
                                 <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Get in touch !</h4>
 
                                 <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
@@ -479,32 +442,32 @@
                                         <div class="lg:col-span-6">
                                             <div class="text-start">
                                                 <label for="name" class="font-medium">Your Name:</label>
-                                                <input name="name" id="name" type="text" class="form-input mt-1 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-purple-500 dark:border-gray-800 dark:focus:border-purple-500 focus:ring-0" placeholder="Name :">
+                                                <input name="name" id="name" type="text" class="form-input mt-1 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-gray-500 dark:border-gray-800 dark:focus:border-gray-500 focus:ring-0" placeholder="Name :">
                                             </div>
                                         </div>
         
                                         <div class="lg:col-span-6">
                                             <div class="text-start">
                                                 <label for="email" class="font-medium">Your Email:</label>
-                                                <input name="email" id="email" type="email" class="form-input mt-1 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-purple-500 dark:border-gray-800 dark:focus:border-purple-500 focus:ring-0" placeholder="Email :">
+                                                <input name="email" id="email" type="email" class="form-input mt-1 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-gray-500 dark:border-gray-800 dark:focus:border-gray-500 focus:ring-0" placeholder="Email :">
                                             </div>
                                         </div>
                                         <div class="lg:col-span-12">
                                             <div class="text-start">
                                                 <label for="subject" class="font-medium">Your Question:</label>
-                                                <input name="subject" id="subject" class="form-input mt-1 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-purple-500 dark:border-gray-800 dark:focus:border-purple-500 focus:ring-0" placeholder="Subject :">
+                                                <input name="subject" id="subject" class="form-input mt-1 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-gray-500 dark:border-gray-800 dark:focus:border-gray-500 focus:ring-0" placeholder="Subject :">
                                             </div>
                                         </div>
     
                                         <div class="lg:col-span-12">
                                             <div class="text-start">
                                                 <label for="comments" class="font-medium">Your Comment:</label>
-                                                <textarea name="comments" id="comments" class="form-input mt-1 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-purple-500 dark:border-gray-800 dark:focus:border-purple-500 focus:ring-0" placeholder="Message :"></textarea>
+                                                <textarea name="comments" id="comments" class="form-input mt-1 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 focus:border-gray-500 dark:border-gray-800 dark:focus:border-gray-500 focus:ring-0" placeholder="Message :"></textarea>
                                             </div>
                                         </div>
 
                                         <div class="lg:col-span-12">
-                                            <button type="submit" id="submit" name="send" class="py-2 px-5 tracking-wider inline-flex items-center justify-center font-medium rounded bg-purple-500 text-white">Send Message</button>
+                                            <button type="submit" id="submit" name="send" class="py-2 px-5 tracking-wider inline-flex items-center justify-center font-medium rounded bg-gray-500/50 text-white">Send Message</button>
                                         </div>
                                     </div>
                                 </form>
