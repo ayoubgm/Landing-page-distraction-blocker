@@ -1,0 +1,26 @@
+@@include("partials/main.html")
+    <head>
+        @@include("partials/title-meta.html", {"title": "UnlockLingo"})
+
+        <link href="assets/libs/animate.css/animate.min.css" rel="stylesheet">
+        @@include("partials/head-css.html")
+    </head>
+    
+    @@include("partials/body.html")
+        
+        @@include("partials/navbar/nav-center.html")
+
+        <!-- Start -->
+
+                @@include("partials/footer/footer.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-purple-500 text-white leading-9"><i class="mdi mdi-arrow-up"></i></a>
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/wow.js/wow.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        @@include("partials/script-file.html")
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>

@@ -224,7 +224,7 @@ try {
 try {
     const Default = {
         alwaysOpen: false,
-        activeClasses: 'bg-slate-50/50 dark:bg-slate-800/20 text-purple-500',
+        activeClasses: 'bg-slate-50/50 dark:bg-slate-800/20 text-gray-500',
         inactiveClasses: 'text-slate-900 dark:text-white',
         onOpen: () => { },
         onClose: () => { },
