@@ -41,9 +41,8 @@ window.addEventListener('scroll', (ev) => {
 // Navbar Active Class
 try {
     var spy = new Gumshoe('#navbar-navlist a', {
-        // Active classes
-        // navClass: 'active', // applied to the nav list item
-        // contentClass: 'active', // applied to the content
+        navClass: 'active', // applied to the nav list item
+        contentClass: 'active', // applied to the content
         offset: 80
     });
 } catch (error) {
@@ -248,3 +247,65 @@ try {
 } catch (error) {
     
 }
+
+function activateMenuOnScroll() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+    console.log('Function initialized');
+    console.log('Found sections:', sections.length);
+    console.log('Found nav links:', navLinks.length);
+    function updateActiveLink() {
+        let current = '';
+        const scrollY = window.pageYOffset + 150;
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.getAttribute('id');
+            
+            if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                current = sectionId;
+            }
+        });
+        
+        if (window.pageYOffset < 100) {
+            current = 'home';
+        }
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            const href = link.getAttribute('href');
+            if (href === `/#${current}` || href === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    }
+    
+    let isClicking = false;
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            console.log('Link clicked:', this.getAttribute('href'));
+            
+            isClicking = true;
+            
+            navLinks.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+            
+            console.log('Active class added to:', this.getAttribute('href'));
+            
+            setTimeout(() => {
+                isClicking = false;
+            }, 1000);
+        });
+    });
+    
+    window.addEventListener('scroll', () => {
+        if (!isClicking) {
+            updateActiveLink();
+        }
+    });
+    
+    updateActiveLink(); // MOVED INSIDE - call once on init
+}
+document.addEventListener('DOMContentLoaded', activateMenuOnScroll);
